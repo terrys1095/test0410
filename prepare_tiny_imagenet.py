@@ -3,7 +3,9 @@ import urllib.request
 import zipfile
 
 def download_and_prepare_tiny_imagenet():
-    url = "http://cs231n.stanford.edu/tiny-imagenet-200.zip"
+    # url = "http://cs231n.stanford.edu/tiny-imagenet-200.zip"
+    url = "https://huggingface.co/datasets/terrys1095/test0410/resolve/main/tiny-imagenet-200.zip"
+
     data_dir = "./data"
     zip_path = os.path.join(data_dir, "tiny-imagenet-200.zip")
     tiny_dir = os.path.join(data_dir, "tiny-imagenet-200")
